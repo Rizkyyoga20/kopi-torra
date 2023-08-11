@@ -1,6 +1,6 @@
 {
   "name": "my-vue-app",
-  "homepage": "rizkyyoga20.github.io/kopi-torra.github.io",  
+  "homepage": "https://rizkyyoga20.github.io/kopi-torra.github.io",  
   "scripts": {
     "build": "vite build",
     "predeploy": "pnpm build",
