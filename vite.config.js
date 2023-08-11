@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [vue()],
   preview: {
   	//port: 8000,
-  	port: "https://rizkyyoga20.github.io/kopi-torra.github.io",
+  	port: "rizkyyoga20.github.io/kopi-torra.github.io",
   }
 })
 
