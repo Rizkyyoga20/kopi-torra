@@ -2,14 +2,10 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 
-module.exports = {
-	publicPath: process.env.NODE_ENV == "production" ? "/rizkyyoga20.github.io/kopi-torra.github.io/" : "/",
-}
-
 
 // https://vitejs.dev/config/
 export default defineConfig({
-//  base: 'https://rizkyyoga20.github.io/kopi-torra.github.io',
+  base: '/rizkyyoga20.github.io/kopi-torra.github.io/',
   plugins: [vue()],
-//  //preview: {port: 8000,}
+  //preview: {port: 8000,}
  })

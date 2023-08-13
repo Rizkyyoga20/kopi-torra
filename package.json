@@ -1,14 +1,15 @@
-
-
 {
   "name": "my-vue-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://rizkyyoga20.github.io/kopi-torra.github.io",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "build" : "vite build",
+    "predeploy":"pnpm build",
+    "deploy":"gh-pages -d dist",
+    "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap": "^5.3.1",
@@ -17,6 +18,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
+    "gh-pages": "^6.0.0",
     "sass": "^1.64.2",
     "vite": "^4.4.5"
   }
