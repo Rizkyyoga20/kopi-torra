@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "rizkyyoga20.github.io/kopi-torra.github.io",
+  "homepage": "https://github.com/Rizkyyoga20/kopi-torra.github.io.git",
   "scripts": {
     "dev": "vite",
     "build" : "vite build",

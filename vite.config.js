@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/rizkyyoga20.github.io/kopi-torra.github.io/',
+  base: 'https://github.com/Rizkyyoga20/kopi-torra.github.io.git',
   plugins: [vue()],
   //preview: {port: 8000,}
  })
