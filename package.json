@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rizkyyoga20.github.io/kopi-torra.github.io",
+  "homepage": "rizkyyoga20.github.io/kopi-torra.github.io",
   "scripts": {
     "dev": "vite",
     "build" : "vite build",
-    "predeploy":"pnpm build",
-    "deploy":"gh-pages -d dist",
+    "predeploy": "pnpm build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
